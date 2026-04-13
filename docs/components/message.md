@@ -30,7 +30,7 @@ description: Message 组件文档
 ## 单独引用
 
 ```ts
-import { createMessage } from 'v3-element';
+import { createMessage } from 'diu-element';
 ```
 
 ## API

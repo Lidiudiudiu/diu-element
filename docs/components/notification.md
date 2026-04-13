@@ -36,7 +36,7 @@ description: Notification 通知 组件文档
 ## 单独引用
 
 ```ts
-import { createNotification } from 'v3-element';
+import { createNotification } from 'diu-element';
 ```
 
 ## API

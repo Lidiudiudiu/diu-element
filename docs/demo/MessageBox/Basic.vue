@@ -1,13 +1,13 @@
 <template>
-  <el-button @click="showMessageBox">showMessageBox</el-button>
+  <DiuButton @click="showMessageBox">showMessageBox</DiuButton>
 </template>
 <script setup lang="ts">
-import ElMessageBox from '@/components/MessageBox/MessageBox'
+import DiuMessageBox from '@/components/MessageBox/MessageBox'
 
-import ElButton from '../../../src/components/Button/Button.vue'
+import DiuButton from '../../../src/components/Button/Button.vue'
 
 const showMessageBox = () => {
-  ElMessageBox({
+  DiuMessageBox({
     // 确认文字、标题和内容
     confirmBtnText: 'Ok',
     title: 'MessageBox',

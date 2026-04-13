@@ -20,8 +20,8 @@ export default defineConfig({
     outDir: 'dist/umd',
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
-      name: 'Vue3Element',
-      fileName: 'vue3-element',
+      name: 'DiuElement',
+      fileName: 'diu-element',
       formats: ['umd']
     },
     rollupOptions: {
@@ -34,7 +34,7 @@ export default defineConfig({
           vue: 'Vue'
         },
         assetFileNames: (chunkInfo) => {
-          if (chunkInfo.name === 'style.css') {
+          if (chunkInfo.name?.endsWith('.css')) {
             return 'index.css'
           }
           return chunkInfo.name as string

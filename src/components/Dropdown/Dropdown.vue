@@ -39,7 +39,7 @@ import type { TooltipInstance } from "../Tooltip/types";
 import RenderVnode from "../Common/RenderVnode";
 
 defineOptions({
-  name: "VkDropdown",
+  name: "DiuDropdown",
 });
 // const props = defineProps<DropdownProps>();
 const props = withDefaults(defineProps<DropdownProps>(), { hideAfterClick: true });

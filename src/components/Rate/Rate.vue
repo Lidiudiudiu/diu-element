@@ -17,7 +17,7 @@
 import { type RateEmits, type RateProps } from './types';
 import { useRate } from './useRate';
 defineOptions({
-  name:'VkRate'
+  name:'DiuRate'
 })
 
 const props = withDefaults(defineProps<RateProps>(),{

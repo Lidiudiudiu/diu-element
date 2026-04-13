@@ -28,9 +28,9 @@ export default defineConfig({
       // 指定组件编译入口文件
       entry: resolve(__dirname, "src/index.ts"),
       // 组件库名称
-      name: "Vue3Element",
+      name: "DiuElement",
       // 文件名称
-      fileName: "vue3-element",
+      fileName: "diu-element",
     },
     rollupOptions: {
       /** 确保外部化处理那些你不想打包进库的依赖 */
@@ -42,7 +42,7 @@ export default defineConfig({
           vue: "Vue",
         },
         assetFileNames: (chunkInfo) => {
-          if (chunkInfo.name === "style.css") {
+          if (chunkInfo.name?.endsWith(".css")) {
             return "index.css";
           }
           return chunkInfo.name as string;

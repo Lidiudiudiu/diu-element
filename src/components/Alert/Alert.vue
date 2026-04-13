@@ -25,7 +25,7 @@ import type { AlertEmits } from "./types";
 
 import Icon from "../Icon/Icon.vue";
 defineOptions({
-  name: "VkAlert",
+  name: "DiuAlert",
 });
 withDefaults(defineProps<AlertProps>(), {
   type: "info",

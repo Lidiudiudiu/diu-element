@@ -1,13 +1,13 @@
 <template>
 
-    <el-button @click="showConfirmMessageBox" type="danger">ConfirmMessageBox</el-button>
+    <DiuButton @click="showConfirmMessageBox" type="danger">ConfirmMessageBox</DiuButton>
 </template>
 <script setup>
-import ElMessageBox from '../../../src/components/MessageBox/MessageBox.vue'
-import ElButton from '@/components/Button/Button.vue'
+import DiuMessageBox from '@/components/MessageBox/MessageBox'
+import DiuButton from '@/components/Button/Button.vue'
 
 const showConfirmMessageBox = () => {
-  ElMessageBox.confirm({
+  DiuMessageBox.confirm({
     showCancelBtn: true,
     confirmBtnText: '确定',
     cancelBtnText: '取消',

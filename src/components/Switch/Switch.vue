@@ -34,7 +34,7 @@ import { ref, computed, onMounted, watch } from 'vue'
 import type { SwitchProps, SwitchEmits } from './types'
 
 defineOptions({
-  name: 'VkSwtich',
+  name: 'DiuSwitch',
   inheritAttrs: false
 })
 const props = withDefaults(defineProps<SwitchProps>(), {

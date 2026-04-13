@@ -9,10 +9,15 @@ describe('Tooltip.vue', () => {
     vi.useFakeTimers()
   })
   test('basic tooltip', async () => {
+    const tooltipProps = {
+      content: 'hello tooltip',
+      trigger: 'click' as const,
+      'onVisible-change': onVisibleChange
+    }
     const wrapper = mount(() => 
     <div>
       <div id="outside"></div>
-      <Tooltip content="hello tooltip" trigger='click' onVisibleChange={onVisibleChange}>
+      <Tooltip {...tooltipProps}>
         <button id="trigger">Trigger</button>
       </Tooltip>
     </div>

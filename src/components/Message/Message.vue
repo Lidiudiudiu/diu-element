@@ -38,7 +38,7 @@ import Icon from "../Icon/Icon.vue";
 import { getLastBottomOffset, getLastInstance } from "./method";
 import useEventListener from "../../hooks/useEventListener";
 defineOptions({
-  name: "VkMessage",
+  name: "DiuMessage",
 });
 const props = withDefaults(defineProps<MessageProps>(), {
   type: 'info',

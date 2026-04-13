@@ -40,7 +40,7 @@ import useEventListener from '../../hooks/useEventListener';
 import { getLastBottomOffset } from './method';
 
 defineOptions({
-  name: 'VkNotification'
+  name: 'DiuNotification'
 });
 
 const props = withDefaults(defineProps<NotificationProps>(), {

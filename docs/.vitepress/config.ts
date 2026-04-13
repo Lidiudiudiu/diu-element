@@ -4,9 +4,9 @@ import { fileURLToPath, URL } from "node:url";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/vk-element/",
-  title: "vk-element",
-  description: "基于vue3的仿Element Plus的组件库",
+  base: "/",
+  title: "diu-element",
+  description: "基于 Vue 3 的 diu 组件库",
   // srcDir: "components",
   vite: {
     resolve: {
@@ -65,6 +65,6 @@ export default defineConfig({
       },
     ],
 
-    socialLinks: [{ icon: "github", link: "https://gitee.com/lyq514/vk-element" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/Lidiudiudiu/vk-element" }],
   },
 });

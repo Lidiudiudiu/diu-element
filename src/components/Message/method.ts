@@ -62,7 +62,7 @@ export const getLastBottomOffset = (id: string) => {
 
 
 export const getLastInstance =()=>{
-  return instances.at(-1)
+  return instances[instances.length - 1]
 }
 
 export const closeAll = () => {

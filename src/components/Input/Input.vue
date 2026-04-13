@@ -97,7 +97,7 @@ import Icon from "../Icon/Icon.vue";
 import { nextTick } from "vue";
 import { formItemContextKey } from "../Form/types";
 defineOptions({
-  name: "VkInput",
+  name: "DiuInput",
   inheritAttrs: false,
 });
 
@@ -106,7 +106,7 @@ const props = withDefaults(defineProps<InputProps>(), {
   autocomplete: "off",
 });
 const emits = defineEmits<InputEmits>();
-const attrs = useAttrs();
+const attrs: Record<string, unknown> = useAttrs();
 const innerValue = ref(props.modelValue);
 const isFocus = ref(false);
 const passwordVisible = ref(false);

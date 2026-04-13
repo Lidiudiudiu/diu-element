@@ -21,7 +21,7 @@ import { createPopper, type Instance } from '@popperjs/core';
 import useClickOutside from '../../hooks/useClickOutside'
 import { debounce } from 'lodash-es';
 defineOptions({
-    name: "VkTooltip"
+    name: "DiuTooltip"
 })
 const props = withDefaults(defineProps<TooltipProps>(), {
     placement: 'bottom',

@@ -17,7 +17,7 @@ import {
 import type { ValidateFieldsError } from 'async-validator';
 
 defineOptions({
-  name: 'VkForm'
+  name: 'DiuForm'
 });
 
 const props = defineProps<FormProps>();

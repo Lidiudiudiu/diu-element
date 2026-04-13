@@ -11,7 +11,7 @@ import RenderVnode from "../Common/RenderVnode";
 import { debounce, isFunction } from "lodash-es";
 
 defineOptions({
-  name: "VkSelect",
+  name: "DiuSelect",
 });
 
 // 找到option对象

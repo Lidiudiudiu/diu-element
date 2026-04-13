@@ -13,7 +13,7 @@ import type { IconProps } from "./types";
 import { omit } from "lodash-es";
 import { computed } from "vue";
 defineOptions({
-  name: "VkIcon",
+  name: "DiuIcon",
   inheritAttrs: false,
 });
 //2

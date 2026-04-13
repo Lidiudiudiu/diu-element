@@ -1,11 +1,11 @@
 import { computed, defineComponent, Fragment, ref } from 'vue'
 import type { PropType } from 'vue'
 import type { Placement, Options } from '@popperjs/core'
-import type { MenuOption } from './types'
+import type { MenuOptions } from './types'
 import Tooltip from '../Tooltip/Tooltip.vue'
 import type { TooltipInstance } from '../Tooltip/types'
 export default defineComponent({
-  name: 'VkDropdown',
+  name: 'DiuDropdown',
   props: {
     placement: {
       type: String as PropType<Placement>,
@@ -31,7 +31,7 @@ export default defineComponent({
       type: Object as PropType<Options>,
     },
     menuOptions: {
-      type: Array as PropType<MenuOption[]>,
+      type: Array as PropType<MenuOptions[]>,
       required: true
     },
     hideAfterClick: {
@@ -45,7 +45,7 @@ export default defineComponent({
   emits: ['visible-change', 'select'],
   setup(props, { slots, emit, expose }) {
     const tooltipRef = ref<TooltipInstance | null>(null)
-    const itemClick = (e: MenuOption) => {
+    const itemClick = (e: MenuOptions) => {
       if (e.disabled) {
         return
       }

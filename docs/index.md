@@ -3,12 +3,12 @@
 layout: home
 
 hero:
-  name: "vk-element"
+  name: "diu-element"
   text: "by diudiu"
   tagline: 仿照 Element Plus
   image:
     src: /img/logo.png
-    alt: v3-element
+    alt: diu-element
   actions:
     - theme: brand
       text: 安装
@@ -25,4 +25,3 @@ features:
   - title: 成为赞助商
     details: 请通过此邮箱联系我们`hc@qq.com`
 ---
-

@@ -10,7 +10,7 @@ import type { ButtonInstance } from "./components/Button/types";
 import Alert from "./components/Alert/Alert.vue";
 import type { TooltipInstance } from "./components/Tooltip/types";
 import Dropdown from "./components/Dropdown/Dropdown.vue";
-import { MenuOptions } from "./components/Dropdown/types";
+import type { MenuOptions } from "./components/Dropdown/types";
 import Message from "./components/Message/Message.vue";
 import Rate from "./components/Rate/Rate.vue";
 import { createMessage } from "./components/Message/method";

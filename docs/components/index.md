@@ -2,14 +2,14 @@
 
 ::: tip 提示
 
-v3-element 基于 Vue3 + Ts 仿照 Element Plus 开发的组件库，仅供学习
+diu-element 基于 Vue3 + Ts 仿照 Element Plus 开发的组件库，仅供学习
 
 :::
 
 ## 安装
 
 ```bash:no-line-numbers
-npm install v3-element
+npm install diu-element
 ```
 
 
@@ -18,18 +18,18 @@ npm install v3-element
 ``` ts
 // main.ts
 // 引入所有组件
-import V3Element from 'v3-element'
+import DiuElement from 'diu-element'
 // 引入样式
-import 'v3-element/dist/index.css'
+import 'diu-element/dist/index.css'
 
 import App from './App.vue'
 // 全局使用
-createApp(App).use(V3Element).mount('#app')
+createApp(App).use(DiuElement).mount('#app')
 ```
 
 ```vue
 <template>
-  <vk-button type="primary">我是 VkButton</vk-button>
+  <diu-button type="primary">我是 DiuButton</diu-button>
 </template>
 ```
 
@@ -37,16 +37,16 @@ createApp(App).use(V3Element).mount('#app')
 ```ts
 // main.ts
 // 引入样式
-import 'v3-element/dist/index.css'
+import 'diu-element/dist/index.css'
 ```
 
 ```vue
 <template>
-  <vk-button type="primary">我是 VkButton</vk-button>
+  <DiuButton type="primary">我是 DiuButton</DiuButton>
 </template>
 
 <script setup lang="ts">
-import { VkButton } from 'v3-element'
+import { DiuButton } from 'diu-element'
 </script>
 ```
 
@@ -63,4 +63,3 @@ import { VkButton } from 'v3-element'
 - `docs`: 文档变动;
 - `test`: 补充缺失的测试用例或者修正现有的测试用例;
 - `revert`: 回滚操作;
-

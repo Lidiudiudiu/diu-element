@@ -44,7 +44,7 @@ import { isNil } from 'lodash-es';
 import Schema from 'async-validator';
 
 defineOptions({
-  name: 'VkFormItem'
+  name: 'DiuFormItem'
 });
 
 const props = defineProps<FormItemProps>();

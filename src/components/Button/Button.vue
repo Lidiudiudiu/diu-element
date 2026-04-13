@@ -29,7 +29,7 @@ import { defineOptions, ref } from "vue";
 import type { ButtonProps } from "./types";
 import Icon from '../Icon/Icon.vue'
 defineOptions({
-  name: "VkButton",
+  name: "DiuButton",
 });
 withDefaults(defineProps<ButtonProps>(), {
   nativeType: "button",

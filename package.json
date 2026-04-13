@@ -1,7 +1,7 @@
 {
-  "name": "vk-element",
+  "name": "diu-element",
   "version": "1.0.0",
-  "description": "Vue3 component library",
+  "description": "Diu Vue3 component library",
   "type": "module",
   "author": "Patrick liang",
   "license": "MIT",
@@ -10,10 +10,10 @@
     "UI",
     "Vue3"
   ],
-  "homepage": "https://stakjun.github.io/v3-element/",
+  "homepage": "https://github.com/Lidiudiudiu/vk-element",
   "repository": {
     "type": "git",
-    "url": "https://github.com/stakjun/vue3-element"
+    "url": "https://github.com/Lidiudiudiu/vk-element.git"
   },
   "files": [
     "dist"
@@ -21,13 +21,13 @@
   "sideEffects": [
     "dist/index.css"
   ],
-  "main": "./dist/umd/vue3-element.umd.cjs",
-  "module": "./dist/es/vue3-element.js",
+  "main": "./dist/umd/diu-element.umd.cjs",
+  "module": "./dist/es/diu-element.js",
   "types": "./dist/types/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/es/vue3-element.js",
-      "require": "./dist/umd/vue3-element.umd.cjs",
+      "import": "./dist/es/diu-element.js",
+      "require": "./dist/umd/diu-element.umd.cjs",
       "types": "./dist/types/index.d.ts"
     },
     "./dist/": {
