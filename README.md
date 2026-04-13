@@ -43,7 +43,7 @@ npm run docs:preview
 
 ## Vercel 部署
 
-仓库已经包含 [vercel.json](/f:/project/vk-element/vercel.json:1)，默认使用以下配置：
+仓库已经包含 `vercel.json`，默认使用以下配置：
 
 - `Install Command`: `npm install`
 - `Build Command`: `npm run docs:build`

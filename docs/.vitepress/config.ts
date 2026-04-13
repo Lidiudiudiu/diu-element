@@ -65,6 +65,6 @@ export default defineConfig({
       },
     ],
 
-    socialLinks: [{ icon: "github", link: "https://github.com/Lidiudiudiu/vk-element" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/Lidiudiudiu/diu-element" }],
   },
 });
